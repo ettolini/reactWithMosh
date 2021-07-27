@@ -1,0 +1,8 @@
+1. You usually need to put parentheses when returning React components because if you leave it like this:
+
+return 
+    <h1>Hello World</h1>
+
+A semicolon will be added next to the return statement, and thus, nothing would be returned. With parentheses, you can indicate that you want
+to return whatever's inside of them.
+
