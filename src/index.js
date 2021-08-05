@@ -4,11 +4,11 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.css';
-import Movies from './components/movies'
+import Counter from './components/counter'
 
 ReactDOM.render(
   <main className="container">
-    <Movies />
+    <Counter />
   </main>,
   document.getElementById('root')
 );
